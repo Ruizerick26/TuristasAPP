@@ -7,7 +7,7 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    const String appTitle = 'Flutter layout demo';
+    const String appTitle = 'Lugares Turisticos';
     return MaterialApp(
       title: appTitle,
       home: Scaffold(
@@ -17,30 +17,31 @@ class MyApp extends StatelessWidget {
         body: const SingleChildScrollView(
             child: Column(
               children: [
-                ImageSection(image: 'images/foto.jpeg',),
+                ImageSection(image: 'images/Iglesia.jpg',),
                 TitleSection(name: 'Iglesia de San Francisco', location: 'Centro Historico Quito'),
                 ButtonSection(),
-                TextSection(description: 'Descipcion de la Iglesia de San Francisco'),
+                TextSection(description:
+                 'La Iglesia de San Francisco es una basílica católica que se levanta en medio del centro histórico de Quito, frente a la plaza del mismo nombre. La estructura es el conjunto arquitectónico de mayor dimensión dentro de los centros históricos de toda América, ​ y por ello es conocido como "el Escorial del Nuevo Mundo"'),
 
-                ImageSection(image: 'images/foto.jpeg',),
+                ImageSection(image: 'images/panecillo.jpeg',),
                 TitleSection(name: 'Panecillo', location: 'Centro Historico Quito'),
                 ButtonSection(),
-                TextSection(description: 'Descipcion del Panecillo'),
+                TextSection(description: 'El Panecillo es una elevación natural de 3.000 metros sobre el nivel del mar, enclavada en el corazón mismo de la ciudad de Quito. Es el sitio más visitado de la ciudad.'),
                 
-                ImageSection(image: 'images/foto.jpeg',),
+                ImageSection(image: 'images/mitad.jpg',),
                 TitleSection(name: 'Mitad del mundo', location: 'Norte de Quito'),
                 ButtonSection(),
-                TextSection(description: 'Descipcion de la Mitad del mundo'),
+                TextSection(description: 'La Ciudad Mitad del Mundo es un complejo turístico y cultural propiedad de la prefectura de la provincia de Pichincha. Está situado en la parroquia de San Antonio del Distrito Metropolitano de Quito, al norte de la ciudad de Quito. '),
 
-                ImageSection(image: 'images/foto.jpeg',),
+                ImageSection(image: 'images/teleferico.png',),
                 TitleSection(name: 'Teleferico', location: 'Norte de Quito'),
                 ButtonSection(),
-                TextSection(description: 'Descipcion del Teleferico'),
+                TextSection(description: 'El TelefériQo es una telecabina que opera en Quito, Ecuador, ubicado en las estribaciones del volcán Rucu Pichincha. Asciende desde la plataforma Motriz a 3117 m s. n. m., hasta Cruz Loma a 3947 m s. n. m., lo cual lo convierte en uno de los telecabinas más altos del mundo.'),
 
-                ImageSection(image: 'images/foto.jpeg',),
+                ImageSection(image: 'images/plaza.jpg',),
                 TitleSection(name: 'Plaza Grande', location: 'Centro Historico Quito'),
                 ButtonSection(),
-                TextSection(description: 'Descipcion de la Plaza Grande'),
+                TextSection(description: 'La plaza de la Independencia, también conocida como plaza Grande, es la principal plaza de la ciudad de Quito, ubicada en el casco antiguo de la ciudad. Se trata de la plaza mayor de la capital, centro político e histórico del Ecuador, y asiento simbólico del presidente del Ecuador.'),
               ],
               
             ),
