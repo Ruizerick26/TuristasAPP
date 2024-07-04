@@ -1,6 +1,6 @@
-# componente_app
+# Desarrollador
 
-A new Flutter project.
+[Ruiz Erick](https://github.com/Ruizerick26)
 
 ## Getting Started
 
